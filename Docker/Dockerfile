@@ -7,6 +7,6 @@ COPY . .
 RUN pip install --no-cache-dir --timeout=1000 -r requirements.txt
 
 
-EXPOSE 5000
+EXPOSE 9696
 
 CMD [ "python", "app.py" ]
